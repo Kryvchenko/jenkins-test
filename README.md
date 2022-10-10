@@ -7,3 +7,5 @@
 - Navigate to Manage Jenkins > Global Toll Configurations > NodeJS installations > Add Node JS
 - Choose version `NodeJs 18.10.0`
 - To the name field add `18.10.0`
+
+![alt text](./assets/node-setup.png)
