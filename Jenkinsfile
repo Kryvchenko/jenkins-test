@@ -13,17 +13,6 @@ pipeline {
         }
       }
     }
-    //  stage('cash clean') {
-    //   steps {
-    //     script {
-    //         if (isUnix()) {
-    //              sh 'npm cache verify'
-    //         } else {
-    //             bat 'npm cache verify'
-    //         }
-    //     }
-    //   }
-    // }
     stage('build') {
       steps {
         script {
