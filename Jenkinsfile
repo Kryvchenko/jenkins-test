@@ -35,16 +35,16 @@ pipeline {
        }
       }
     }
-    stage('report') {
-      steps {
-        script {
-        if (isUnix()) {
-                 sh 'npm run report'
-            } else {
-                bat 'npm run report'
-            }
-       }
-      }
-    }
+    // stage('report') {
+    //   steps {
+    //     script {
+    //     if (isUnix()) {
+    //              sh 'npm run report'
+    //         } else {
+    //             bat 'npm run report'
+    //         }
+    //    }
+    //   }
+    // }
   }
 }
