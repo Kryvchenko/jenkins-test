@@ -30,6 +30,8 @@
 - use the current repo URL(https://github.com/Kryvchenko/jenkins-test)
 - build now
 
+### Additionally, you can find `config.xml` file in builds folder
+
 ## Running test locally
 
 - navigate to the project directory 
