@@ -1,0 +1,183 @@
+Started by user [8mha:////4PLXHPrVKPd3T0e7XQvSnYTXlgN7ySKyptBc73oaQ80ZAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Obtained Jenkinsfile from git https://github.com/Kryvchenko/jenkins-test
+[8mha:////4DynTuM2I0Pp7g7VZjR0gFdX7csjuF15vuQnRqZ9MHqiAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4G9MY4gSWeK0dX0pPayot6G89CcanGlWeKzFajYqN4hXAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4LaW5QumJ0iaGg3CLUJUChlWZ3P8DBGsRfKD4iLofaYxAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /Users/Tiger/.jenkins/workspace/jenkins-test
+[8mha:////4BbuKvUzLl/6tkKAuDleGqwdebDGHAtclUViSX1HoRmxAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4HhERQSTh3e9IW7dQWI0AlaCt6swYv6/HIJAp7f+ipZwAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4Ian7lARyGTcPlPBPWaDOmjAn3wvqYjWoqL3NCHz0vr7AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4IczsW+ErLUtLeWUDD2x+mM+Xl9oOfks8kTtADtT2rvqAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: git
+No credentials specified
+ > git rev-parse --resolve-git-dir /Users/Tiger/.jenkins/workspace/jenkins-test/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Kryvchenko/jenkins-test # timeout=10
+Fetching upstream changes from https://github.com/Kryvchenko/jenkins-test
+ > git --version # timeout=10
+ > git --version # 'git version 2.37.0 (Apple Git-136)'
+ > git fetch --tags --force --progress -- https://github.com/Kryvchenko/jenkins-test +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision ee477034f6f28dd751a2e52903b11af8ef2a548a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ee477034f6f28dd751a2e52903b11af8ef2a548a # timeout=10
+Commit message: "readme updated"
+ > git rev-list --no-walk 18b3d50895e88746dfe595e57908e3061e1543e2 # timeout=10
+[8mha:////4Csd31TMonvaCrKOlm9WXuu1IopgvD+ElSO5UOaJ3XdXAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4G8vkh66yiFzT0onw8ClE2rNUPJqS5z5IwFdw0VMO+9TAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4KG9shebHNX0klnd5vii7kWt01X/0Ze43XL57tfYv/s6AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4MANsvxTSdOD03V0PeMjclT+D+urh7sI0PVszIqrOQorAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4G8r75Aw07wjw2Jd6ZU1SvrJGKYhT3nAeAerMY/AJGjPAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4CDaPIHcybxbPFWOuJXuP27P+bEGUenFnX3fwmniV+IYAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4Lv3ZypNSz4mzkN1OL9A9LEQmQ0hZgCsnM/XyyUvORZMAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] tool
+[8mha:////4Eg4bZmzP+ejNBJD0GCqtoeGKmA4+SvoTiQXshAJg7giAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN0uFte2+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4JkInjoUeCbGSejUxXnfUDToaZxp2JD7x8Anx1TtMDnUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEeFbpZvgAAAA==[0m[Pipeline] }
+[8mha:////4FZyhkzYFZP/ZK8AuyxcLP++uLf18M25M/SLjd67a95SAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7Ny324eW+AAAA[0m[Pipeline] // stage
+[8mha:////4LJsE3UMmJa1HnNtH90LdeApVlu6Gb8uxbdFV9+0Osh5AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohU3ZAQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9AAkvMTrCAAAA[0m[Pipeline] withEnv
+[8mha:////4EidZ+/GxE4hO3Ag/G6eFjS8Vv0Fa062fj6Do+HyaZZXAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4KX++J827azoxZ6LW/xHFAkq1JFdPRDR/HUsiegoom5eAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] stage
+[8mha:////4HObyr0bdiNR29ZnC8pch/7xMefvvFA5hlr6GLvvIjJRAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] { (preflight)
+[8mha:////4ERggKGgcLxtPGGMFbnIW0EbCl4ecPoYdoloPEJX/UP+AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bH7uiub4AAAA=[0m[Pipeline] tool
+[8mha:////4OZn0HvOKFKMjqN/keOGjaJHo7sh4Kngy1d8RMkYlizxAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDudt+ah/eXoq5oL4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4MrieF5uNScYG2idIKkyArNuh95Zs2Ixgx9roCQlEP6VAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dvd7Md5mfxAR8nhQvCAAAA[0m[Pipeline] withEnv
+[8mha:////4AZH8W6QR157a2DYNGuJXXd7UTNtYpbob5YEznMr/nOjAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] {
+[8mha:////4HaCVvodSlAy52mXBDzsaAzDW3anR8PXCs2VYhU6c30rAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] script
+[8mha:////4H4Gz4zhzuFuosVnL/rE+fB7RQ9IkLoPUgvgzmbuxrYAAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] {
+[8mha:////4LM3FFu78hNTOLI1rSlXT1lx6iVTpcrHBXVTxTS7/UbwAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGvZp0gvgAAAA==[0m[Pipeline] isUnix
+[8mha:////4BDJcTgPewCwv06H3nv5iZgTU19PcIRtg+EypSNPujgpAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHuV4Y5vgAAAA==[0m[Pipeline] sh
++ node -v
+v18.10.0
+[8mha:////4JMztgPRB4n3d/hDD50CzwaZ1QE8KIGHtHfwQtr6HtgFAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/wcDw0vgAAAA==[0m[Pipeline] }
+[8mha:////4NE8Izr1U7wXdFWCrBq36vIn65Yb8ZgwPEXCZamPEvhjAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/Dk2eIvgAAAA==[0m[Pipeline] // script
+[8mha:////4JG3O5w0iXpXXcf5HJjr7RBzGF491x3eQbrU+UrJwFhZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBVEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AHXsPqXvgAAAA==[0m[Pipeline] }
+[8mha:////4BZoqjKq/eCDGhpD+fNDUYkKxM5Slfi5Ev0J+4qY9CnMAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRCB2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPuRToSu+AAAA[0m[Pipeline] // withEnv
+[8mha:////4NS5NRx2DF29q2RXHGZrvyceQ0L0PF6dPqc9TIyXb/yQAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGIjPh1KRWu54QQmMcaJtRtsB6fiRFyNO2ARiYopRvOmea83LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Iddu+wHTl85GvgAAAA==[0m[Pipeline] }
+[8mha:////4Ji7MnA2I8Ff9IHYYKD5MPxOvdA0noD6SDjkT0GusCONAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Iddu+wHgdJX6vgAAAA==[0m[Pipeline] // stage
+[8mha:////4Pr/xEaOBk6v9c5JJA34QR0OV2P9lsp9UbdSl53t946KAAAAqB+LCAAAAAAAAP9tjUEKwjAURH8rXbh16SFSRBBEunIbuvEEsYkxafi/JqnpyhN5Ne9gtODKWQwzA8N7vqAKHhrymlmFvcHQGTa4UefEEvn+4igxS2fWEQZyirUqtSTVca4tRQWzihIWHJYKO0fBoI6w4lbcRe0E6voUfd4OHEojb/CAgmdyFD5+y+RhfR1lIPxx/gJgGiKUm3227e7zrN4VvmctwgAAAA==[0m[Pipeline] stage
+[8mha:////4If/Dv62EIhNGDI6E21h+Htdnpop7C5OMqmEdkGkPW5QAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] { (build)
+[8mha:////4E4f2gviGf3ENK2PN5bArRjWz/agIUjprkXYYn1kYn9hAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUICEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEGDPXtvgAAAA==[0m[Pipeline] tool
+[8mha:////4DwNvAYJ4pMITZyWsEcNdKpmzgVlGGZklLD8gB5Ii+xzAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUCCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAFHPe70vgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4DvlJ8by3a0fhqR6CZMwqOSIYRfK6R0VYqRMaDE+/wOzAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUCSQG1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHK7T7bbvN5Vm8f1tSAwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4JPIPBIWpbOLOO9TVzjPM4rD92xySscQqbyibUMGb+cVAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAbb5KxbCAAAA[0m[Pipeline] {
+[8mha:////4PDEiZUkBpF6nUuLOAW+8x49Qg2Kac161nQmq7nbCzIGAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdhUMVHCAAAA[0m[Pipeline] script
+[8mha:////4Ah2shaDo8LGujJ3J8hUCeQoBOm2PACkwP8Q9PSFcKzuAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAXzhjwPCAAAA[0m[Pipeline] {
+[8mha:////4KjcMSaSwmQjcYgAGiMoi9Shq2ZyJMgeidDh+Re4akPdAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSkA5R0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3fhXiFur4AAAA=[0m[Pipeline] isUnix
+[8mha:////4J6H4dvjrTIcD/L7OHOO+urGmh8UEqCvc8WkpmX0bky1AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyt32U/vwBsRJnqO+AAAA[0m[Pipeline] sh
++ npm install
+
+up to date, audited 307 packages in 583ms
+
+7 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+[8mha:////4ENdQE5wvXpEGRqhxCl9HZFhj108H7Q6FYX/Ts3RLgJ0AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN/zO9Xa+AAAA[0m[Pipeline] }
+[8mha:////4Ms/Q28roYYIpEj7RqnGq4uNjfMAbestds80Vuh0JqJeAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISQKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyt//U9g3PLa7KvgAAAA==[0m[Pipeline] // script
+[8mha:////4IUMEVnROe8H9P2OowpFXDD30HLYwn1l5w1B/9mO8ti6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJAokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyt//U9g2gzvGivgAAAA==[0m[Pipeline] }
+[8mha:////4JwINfIrr2S8HUZXg1m4GU+muoYAMEu0b/gK/g6LIpIFAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCQYMQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN5Mtqh6+AAAA[0m[Pipeline] // withEnv
+[8mha:////4E32PuwDJ8NJuQw/A7o7sXAMNPjzLY5qKp6TZ5qt9vJFAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKChBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAi3T3Tr4AAAA=[0m[Pipeline] }
+[8mha:////4CzBtUuB+Tn0fUgrkcycuYSj51B5JZBQY5wcnvSjKgImAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+4l6zyvgAAAA==[0m[Pipeline] // stage
+[8mha:////4CRIba3g/XiUrXd/a2S3vKK5CrcXUgkpNe3FYSTWjPqVAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDEg1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzT7bbvt5Vm85ySbVwgAAAA==[0m[Pipeline] stage
+[8mha:////4F79KSPsbxh0eYWcop6A804nNnj4aD9S2KxzN8LEG5LXAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD6emXT7CAAAA[0m[Pipeline] { (test)
+[8mha:////4O31ID+7NZhbZRoz45CUppubtcGxl6EEU/NjSk5zzTFtAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBiwS7Xe+AAAA[0m[Pipeline] tool
+[8mha:////4L5pBnsqCz+aichBK5P+5koGaycShD75UVtMbL60yLLcAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSoFSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMknKOv9p2r/Bm0j9m6+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4Dapj+tKaY4va+mw6wNQZjnx7zirs7ijm9ewAohIpPJmAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8v5vtMD+LD9ToHq/CAAAA[0m[Pipeline] withEnv
+[8mha:////4DQcGmmNWHe5LWS4BIXRaHb2/GNdJYr93dBF1Eux+xw6AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxATOXFRXCAAAA[0m[Pipeline] {
+[8mha:////4HqoVhoBYsEfflnS2NEFHEAZ5c4BYRJmqWEIzJyYVYHAAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QiAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LDyb6zSXCAAAA[0m[Pipeline] script
+[8mha:////4OU//FEixEW91QpjzaZJaqbm7tMW2W+A8Rk9QzVizhi5AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0XdaX3CAAAA[0m[Pipeline] {
+[8mha:////4AEZLkKDclB2QwUfx5Yl+bNQHSZf0aLFPOyKEBptyL/+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAxJCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw8/Nre1vgAAAA==[0m[Pipeline] isUnix
+[8mha:////4BxjfqV+vWY0QXBkYs/2Cpuvy2IgSdy+ocNodHDISV12AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCpAQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wAfgesrL4AAAA=[0m[Pipeline] sh
++ npm run test
+
+> test
+> newman run collection.json -e env.json
+
+newman
+
+Dropbox API Updated
+
+❏ Basic endpoint test / Upload
+↳ Upload
+  POST https://api.dropboxapi.com/oauth2/token [200 OK, 685B, 679ms]
+  POST https://content.dropboxapi.com/2/files/upload [200 OK, 883B, 1129ms]
+  ✓  Response time is less than 5000ms
+  ✓  Verify status code should be 200
+  ✓  Correct file name is return
+  ✓  Should check uploaded file name
+
+❏ Basic endpoint test / GetFileMetadata
+↳ GetMetaData
+  POST https://api.dropboxapi.com/oauth2/token [200 OK, 685B, 233ms]
+  POST https://api.dropboxapi.com/2/sharing/get_file_metadata [200 OK, 871B, 1190ms]
+  ✓  Response time is less than 5000ms
+  ✓  Verify status code should be 200
+  ✓  Correct file id is return
+  ✓  Content-Type is present
+  ✓  The response has id property of specific length
+
+❏ Basic endpoint test / Delete
+↳ Delete
+  POST https://api.dropboxapi.com/oauth2/token [200 OK, 685B, 238ms]
+  POST https://api.dropboxapi.com/2/files/delete_v2 [200 OK, 822B, 732ms]
+  ✓  Response time is less than 5000ms
+  ✓  Verify status code should be 200
+  ✓  Response body should be in the correct format
+  ✓  Should check deleted file path
+
+❏ Negative test
+↳ Upload Negative
+  POST https://api.dropboxapi.com/oauth2/token [200 OK, 685B, 234ms]
+  POST https://content.dropboxapi.com/2/files/upload [200 OK, 894B, 923ms]
+  ✓  Response time is less than 5000ms
+  ✓  Verify status code should be 200
+  ✓  Verify that data size is 0
+
+Attempting to set next request to Getmetadata Negative
+
+↳ Getmetadata Negative
+  POST https://api.dropboxapi.com/oauth2/token [200 OK, 685B, 238ms]
+  POST https://api.dropboxapi.com/2/sharing/get_file_metadata [409 Conflict, 501B, 265ms]
+  ✓  Response time is less than 5000ms
+  ✓  Verify status code should be 409
+
+Attempting to set next request to Delete Negative
+
+↳ Delete Negative
+  POST https://api.dropboxapi.com/oauth2/token [200 OK, 685B, 283ms]
+  POST https://api.dropboxapi.com/2/files/delete_v2 [409 Conflict, 491B, 258ms]
+  ✓  Response time is less than 5000ms
+  ✓  Verify status code should be 409
+  ✓  Should attempt to delete user with wrong path: id
+
+┌─────────────────────────┬─────────────────────┬─────────────────────┐
+│                         │            executed │              failed │
+├─────────────────────────┼─────────────────────┼─────────────────────┤
+│              iterations │                   1 │                   0 │
+├─────────────────────────┼─────────────────────┼─────────────────────┤
+│                requests │                  12 │                   0 │
+├─────────────────────────┼─────────────────────┼─────────────────────┤
+│            test-scripts │                  18 │                   0 │
+├─────────────────────────┼─────────────────────┼─────────────────────┤
+│      prerequest-scripts │                  16 │                   0 │
+├─────────────────────────┼─────────────────────┼─────────────────────┤
+│              assertions │                  21 │                   0 │
+├─────────────────────────┴─────────────────────┴─────────────────────┤
+│ total run duration: 6.7s                                            │
+├─────────────────────────────────────────────────────────────────────┤
+│ total data received: 3.09kB (approx)                                │
+├─────────────────────────────────────────────────────────────────────┤
+│ average response time: 533ms [min: 233ms, max: 1190ms, s.d.: 360ms] │
+└─────────────────────────────────────────────────────────────────────┘
+[8mha:////4FfVrkrjo3Enpa2JVXFrycAe2lGCvD2/zIsZZ7nLolMSAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIYGEUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKU+22u3eEDnEU1g74AAAA=[0m[Pipeline] }
+[8mha:////4JQnEO+aeAuR8jW8utAMeiy5j2umvJ6eBvbwXADZufYxAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIBASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAr6ZuP74AAAA=[0m[Pipeline] // script
+[8mha:////4Ppss4+xhGjL6KgLCD9PwjxdXBnwcMsiRWfPrAJvqtZSAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLT8ClQKlrLDScwiTFOrN1gOzgVJ+Jq3AGLSFRMMZo3zXu9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+Gi9SyvgAAAA==[0m[Pipeline] }
+[8mha:////4EJc34Emf6eiPuo4mhH+Ygu4fyw6BGjs9B+ISU5cxXsZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKpkgZR0VppeIGJjXFi3Tn2haTiRXyNP2ARiYotVjvbzOsN2xThRNGK3uDgMHVOBD/ZvMRMcbh5mkVPV9ERJvJGtGZuSZvzii2xgTVFCRsJO4Odp+TQMuxlrx6q8gptdeGYv6OE0ukRnlDIbGYV+QtLhMN90onw5/krgCUEhrKpc9XNB7Vojw6+AAAA[0m[Pipeline] // withEnv
+[8mha:////4DWa3rdLEj6VU+dqBMDTNLzgSFHtxcC6IOv6iAV3Ot2gAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSINIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrOtdh/wGU7nH4vgAAAA==[0m[Pipeline] }
+[8mha:////4MuEMcBS6H30bBAz0IYE/lgqYplUMpHPZBTXmqRhhBgeAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIQEFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryf8i1234Apw0qRL4AAAA=[0m[Pipeline] // stage
+[8mha:////4JqkjkOKu0HBvEP+9y0Uf++xAl8z6lZ2zQTnlhvZ8agIAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGgRCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw/+o8JGvgAAAA==[0m[Pipeline] }
+[8mha:////4LBe7pkissMhDzZXEcyWkiDYO2KYYv0l2zLnwl7uP2+eAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGgRCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w/NQJn6vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4LLx0QpiavPH+l6f2P+8AlrceUwh5bRP9H7HaocvRaZzAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIhFQWiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOVhn6uuPxWiPQK+AAAA[0m[Pipeline] }
+[8mha:////4MscJ4ZTtgrT1xs+vycB7IRBKRlux2+mf20L+nKzF62kAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIhFQWiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOWhzlXvPyZBZr6+AAAA[0m[Pipeline] // withEnv
+[8mha:////4Bq2SyrvN26tsYwVMb5zwOTSW38LQb8y49MuAdfqawNaAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREBIFoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN9vBdnuA/ib3H69AAAA[0m[Pipeline] }
+[8mha:////4HtMbRLAyEweLFcChdAjJEWon6076v3keJUxWtoaL65OAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUFBaOlW2GxhNEiDGQ2cVkESpP5NW8g4zMWPmr/17zXm+sU8SRo1Otpc5Tqr3qw+Dmp0aO3TXwqFq+qJopcbCqsmPFjT0tWLFYLMtyrDQ2lurAyZMTbHVrHqYIhlxxlji7g0bumzueyPRcFhPlC1PE7jY0ienX+RvA1PeCfF8KsvID6yfY3b0AAAA=[0m[Pipeline] // node
+[8mha:////4Ov7xHnf4npUdr+zsQpWyVs+0W7lgUu7bSCS+dlAVuwrAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREBIFoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/vBNn2A23L/xi9AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS
