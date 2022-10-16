@@ -19,11 +19,5 @@ pipeline {
       }
     }
 
-    stage('Build') {
-      steps {
-        sh 'docker build -f jenkins-test/Dockerfile .'
-      }
-    }
-
   }
 }
