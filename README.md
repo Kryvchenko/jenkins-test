@@ -10,7 +10,7 @@
 - clone this repository
 - install all dependencies for this project with `npm install` 
 
-## Jenkins Setup
+## Jenkins Setup for local run
 
 - launch your Jenkins server
 - navigate to Manage Jenkins > Manage Plugins 
@@ -22,7 +22,7 @@
 
 ![alt text](./assets/node-setup.png)
 
-## Running job in Jenkins
+## Running job in Jenkins localy
 
 - create a new pipeline
 - pipeline script from SCM
