@@ -10,7 +10,8 @@
 - clone this repository
 - install all dependencies for this project with `npm install` 
 
-### For your convinience I have created 2 Jenkins files. One for blue ocean pipeline, second (inside Jenkins folder) for local setup, additionally, you can find `config.xml` and `logs` file in builds folder from my local machine
+### For your convenience, I have created 2 Jenkins files. One for the blue ocean pipeline, the second (inside the Jenkins folder) for local setup, additionally, you can find `config.xml` and `logs` file in the builds folder from my local machine
+
 
 ## Link to Jenkins build in blue ocean
 
