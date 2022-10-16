@@ -10,6 +10,12 @@
 - clone this repository
 - install all dependencies for this project with `npm install` 
 
+### For your convinience I have created 2 Jenkins files. One for blue ocean pipeline, second (inside Jenkins folder) for local setup, additionally, you can find `config.xml` and `logs` file in builds folder from my local machine
+
+## Link to Jenkins build in blue ocean
+
+### http://178.79.171.175:8080/blue/pipelines
+
 ## Jenkins Setup for local run
 
 - launch your Jenkins server
@@ -27,10 +33,10 @@
 - create a new pipeline
 - pipeline script from SCM
 - SCM (Git)
+- change a path to Jenkins file `./Jenkins/Jenkinsfile`
 - use the current repo URL(https://github.com/Kryvchenko/jenkins-test)
 - build now
 
-### Additionally, you can find `config.xml` and `logs` file in builds folder
 
 ## Running test locally
 
