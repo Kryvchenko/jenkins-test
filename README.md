@@ -2,27 +2,22 @@
 
 ## Tools
 
-- Postman 
+- Postman
 - Jenkins
 
 ## Setup
 
 - clone this repository
-- install all dependencies for this project with `npm install` 
+- install all dependencies for this project with `npm install`
 
-### For your convenience, I have created 2 Jenkins files. One for the blue ocean pipeline, the second (inside the Jenkins folder) for local setup, additionally, you can find `config.xml` and `logs` file in the builds folder from my local machine
-
-
-## Link to Jenkins build in blue ocean
-
-### http://178.79.171.175:8080/blue/pipelines
+### For your convenience, I have createdJenkins file inside the Jenkins folder for local setup, additionally, you can find `config.xml` and `logs` file in the builds folder from my local machine
 
 ## Jenkins Setup for local run
 
 - launch your Jenkins server
-- navigate to Manage Jenkins > Manage Plugins 
+- navigate to Manage Jenkins > Manage Plugins
 - install `NodeJS Plugin`
-- make sure that you have Pipeline and Pipeline: GitHub Groovy Libraries plugins installed 
+- make sure that you have Pipeline and Pipeline: GitHub Groovy Libraries plugins installed
 - navigate to Manage Jenkins > Global Toll Configurations > NodeJS installations > Add Node JS
 - choose version `NodeJs 18.10.0`
 - to the name field add `18.10.0`
@@ -38,18 +33,17 @@
 - use the current repo URL(https://github.com/Kryvchenko/jenkins-test)
 - build now
 
-
 ## Running test locally
 
-- navigate to the project directory 
+- navigate to the project directory
 - open terminal
 - to run the test: `npm run test`
-- to generate a report: `npm run report` 
+- to generate a report: `npm run report`
 - to open the report navigate to the Newman folder and open the HTML file in your browser
 
 ## Run collection in Postman
 
-- click the button bellow 
+- click the button bellow
 - fork the collection
 - choose the environment:`Updates env`
 - run the tests
